@@ -1,0 +1,60 @@
+# 1-hello-c
+# 2주차 C 실습(3)
+#include <stdio.h>
+
+void main(void) {
+
+    char ch = 'A';
+    printf("char:\n");
+    printf("Value:%c\n", ch);
+    printf("Max: %d\n", SHRT_MAX);
+    printf("Min: %d\n", SHRT_MIN);
+
+
+    //signed int
+    signed short int ushort = 1234;
+    printf("signed short int:\n");
+    printf("Value:%c\n", short);
+    printf("Max: %d\n", SHRT_MAX);
+    printf("Min: %d\n", SHRT_MIN);
+
+
+    //unsigned int
+    unsigned short int ushort = 1234U;
+    printf("unsigned short int:\n");
+    printf("Value:%c\n", ushort);
+    printf("Max: %d\n", USHRT_MAX);
+
+
+    //signed int
+    signed int sint = 12345;
+    printf("\nsigned int:\n");
+    printf("Value:%c\n", short);
+    printf("Max: %d\n", INT_MAX);
+    printf("Min: %d\n", INT_MIN);
+
+
+    //unsigned int
+    unsigned short int ushort = 12345U;
+    printf("\nunsigned int:\n");
+    printf("Value:%c\n", uint);
+    printf("Max: %d\n", UINT_MAX);
+
+
+    //signed long int
+    signed long int slong = 123456789L;
+    printf("\nsigned long int:\n");
+    printf("Value:%ld\n", slong);
+    printf("Max: %ld\n", LONG_MAX);
+    printf("Min: %ld\n", LONG_MIN);
+
+
+    //unsigned long int
+    unsigned long int ulong = 123456789UL;
+    printf("\nunsigned int:\n");
+    printf("Value:%lu\n", ulong);
+    printf("Max: %lu\n", ULONG_MAX);
+
+
+return 0;
+}
