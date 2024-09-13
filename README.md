@@ -1,14 +1,1 @@
-# 1-hello-c
-# 2주차 C 실습
-#include <stdio.h>
-
-void main(void) {
-    char name[] = "Aarons";
-    float age = 43.5;
-
-    printf("Hello, my name is %s\n", name);
-    printf("");
-    printf("\tI am %.1f years old/n/n.", age);
-
-    return 0; //0:양수 1:음수
-}
+# 2주차 지각으로 진도를 우선적으로 따라가느라 파일명과 구조가 다릅니다.
